@@ -3,18 +3,30 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		627C2A3E2F30FA1C6740DEA6 /* Pods_QDR_Main.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3C2CC966D230A32BC2ED218 /* Pods_QDR_Main.framework */; };
+		B23EDE1B24D21AED00285354 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23EDE1A24D21AED00285354 /* SignUpViewController.swift */; };
+		B23EDE1F24D3275E00285354 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23EDE1E24D3275E00285354 /* Utilities.swift */; };
+		B260302E24CF33FE00995CB5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B260302D24CF33FE00995CB5 /* LoginViewController.swift */; };
+		B260303024CF498200995CB5 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B260302F24CF498200995CB5 /* CustomButton.swift */; };
 		B266C3FB24C9FAE600D9A972 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B266C3FA24C9FAE600D9A972 /* AppDelegate.swift */; };
 		B266C3FD24C9FAE600D9A972 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B266C3FC24C9FAE600D9A972 /* ViewController.swift */; };
 		B266C40024C9FAE600D9A972 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B266C3FE24C9FAE600D9A972 /* Main.storyboard */; };
 		B266C40224C9FB0300D9A972 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B266C40124C9FB0300D9A972 /* Assets.xcassets */; };
 		B266C40524C9FB0300D9A972 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B266C40324C9FB0300D9A972 /* LaunchScreen.storyboard */; };
+		B2D1834824D1CEA00091613B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2D1834724D1CEA00091613B /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7690EF111D935CFACBB676F4 /* Pods-QDR Main.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QDR Main.debug.xcconfig"; path = "Target Support Files/Pods-QDR Main/Pods-QDR Main.debug.xcconfig"; sourceTree = "<group>"; };
+		8AC63A16C58CA8C24081060C /* Pods-QDR Main.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QDR Main.release.xcconfig"; path = "Target Support Files/Pods-QDR Main/Pods-QDR Main.release.xcconfig"; sourceTree = "<group>"; };
+		B23EDE1A24D21AED00285354 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		B23EDE1E24D3275E00285354 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		B260302D24CF33FE00995CB5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B260302F24CF498200995CB5 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		B266C3F724C9FAE600D9A972 /* QDR Main.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QDR Main.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B266C3FA24C9FAE600D9A972 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B266C3FC24C9FAE600D9A972 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +34,8 @@
 		B266C40124C9FB0300D9A972 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B266C40424C9FB0300D9A972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B266C40624C9FB0300D9A972 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2D1834724D1CEA00091613B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		E3C2CC966D230A32BC2ED218 /* Pods_QDR_Main.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QDR_Main.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,52 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				627C2A3E2F30FA1C6740DEA6 /* Pods_QDR_Main.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D91A808F8D36FAAFB79BB26 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7690EF111D935CFACBB676F4 /* Pods-QDR Main.debug.xcconfig */,
+				8AC63A16C58CA8C24081060C /* Pods-QDR Main.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		59812A442508F74690BE5988 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3C2CC966D230A32BC2ED218 /* Pods_QDR_Main.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B23EDE1C24D3186E00285354 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		B23EDE1D24D3266800285354 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B23EDE1E24D3275E00285354 /* Utilities.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		B266C3EE24C9FAE600D9A972 = {
 			isa = PBXGroup;
 			children = (
 				B266C3F924C9FAE600D9A972 /* QDR Main */,
 				B266C3F824C9FAE600D9A972 /* Products */,
+				1D91A808F8D36FAAFB79BB26 /* Pods */,
+				59812A442508F74690BE5988 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +103,18 @@
 		B266C3F924C9FAE600D9A972 /* QDR Main */ = {
 			isa = PBXGroup;
 			children = (
+				B23EDE1D24D3266800285354 /* Helpers */,
+				B23EDE1C24D3186E00285354 /* View Controller */,
 				B266C3FA24C9FAE600D9A972 /* AppDelegate.swift */,
 				B266C3FC24C9FAE600D9A972 /* ViewController.swift */,
+				B23EDE1A24D21AED00285354 /* SignUpViewController.swift */,
+				B260302D24CF33FE00995CB5 /* LoginViewController.swift */,
 				B266C3FE24C9FAE600D9A972 /* Main.storyboard */,
 				B266C40124C9FB0300D9A972 /* Assets.xcassets */,
 				B266C40324C9FB0300D9A972 /* LaunchScreen.storyboard */,
 				B266C40624C9FB0300D9A972 /* Info.plist */,
+				B260302F24CF498200995CB5 /* CustomButton.swift */,
+				B2D1834724D1CEA00091613B /* GoogleService-Info.plist */,
 			);
 			path = "QDR Main";
 			sourceTree = "<group>";
@@ -71,9 +126,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B266C40924C9FB0300D9A972 /* Build configuration list for PBXNativeTarget "QDR Main" */;
 			buildPhases = (
+				7F413A315C8A929E938058D5 /* [CP] Check Pods Manifest.lock */,
 				B266C3F324C9FAE600D9A972 /* Sources */,
 				B266C3F424C9FAE600D9A972 /* Frameworks */,
 				B266C3F524C9FAE600D9A972 /* Resources */,
+				18C23B97D611330CB4793441 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B266C40524C9FB0300D9A972 /* LaunchScreen.storyboard in Resources */,
+				B2D1834824D1CEA00091613B /* GoogleService-Info.plist in Resources */,
 				B266C40224C9FB0300D9A972 /* Assets.xcassets in Resources */,
 				B266C40024C9FAE600D9A972 /* Main.storyboard in Resources */,
 			);
@@ -130,13 +188,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		18C23B97D611330CB4793441 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QDR Main/Pods-QDR Main-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QDR Main/Pods-QDR Main-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QDR Main/Pods-QDR Main-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F413A315C8A929E938058D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QDR Main-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B266C3F324C9FAE600D9A972 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B23EDE1F24D3275E00285354 /* Utilities.swift in Sources */,
+				B260303024CF498200995CB5 /* CustomButton.swift in Sources */,
+				B260302E24CF33FE00995CB5 /* LoginViewController.swift in Sources */,
 				B266C3FD24C9FAE600D9A972 /* ViewController.swift in Sources */,
 				B266C3FB24C9FAE600D9A972 /* AppDelegate.swift in Sources */,
+				B23EDE1B24D21AED00285354 /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,11 +384,13 @@
 		};
 		B266C40A24C9FB0300D9A972 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7690EF111D935CFACBB676F4 /* Pods-QDR Main.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XRSGFNH46Z;
 				INFOPLIST_FILE = "QDR Main/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,11 +404,13 @@
 		};
 		B266C40B24C9FB0300D9A972 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AC63A16C58CA8C24081060C /* Pods-QDR Main.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XRSGFNH46Z;
 				INFOPLIST_FILE = "QDR Main/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
